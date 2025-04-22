@@ -153,6 +153,5 @@ public class Main {
         System.out.println("제 전공은 " + major4 + "이며, MBTI는 " + mbit4 + "입니다. 열심히 할게요!!!");
 
         // ch03_operator 패키지 생성 -> Operator01 클래스 생성 -> main 메서드 적용
-
     }
 }
