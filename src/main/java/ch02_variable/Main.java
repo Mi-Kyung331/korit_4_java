@@ -13,7 +13,7 @@ package ch02_variable;
 public class Main {
     public static void main(String[] args) {
         System.out.println("안녕하세요, 제 이름은 강미경입니다.");
-//        System.out.println(안녕하세요, 제 이름은 강미경입니다.); -> 오류 발생
+//        System.out.println(안녕하세요, 제 이름은 강미경입니다.); → 오류 발생
 
         System.out.println(1);              // 1
         System.out.println("1");            // 1
@@ -28,7 +28,7 @@ public class Main {
         // 데이터를 변수에 대입하고, 변수를 통해서 명령을 내리는 것이 권장됨.
 
         /*
-            변수(variable) : 데이터를 담는 바구니 -> 이름표를 달아줘야 함.
+            변수(variable) : 데이터를 담는 바구니 → 이름표를 달아줘야 함.
             변수 선언 방법 :
                 자료형 변수명 = 데이터;
          */
@@ -57,7 +57,7 @@ public class Main {
         char name1 = '강';
         char name2 = '미';
         char name3 = '경';
-        // char -> 문자 / String -> 문자열
+        // char → 문자 / String → 문자열
 
         System.out.println(name1 + name2 + name3);          // 136394
         System.out.println("" + name1 + name2 + name3);     // 강미경
@@ -73,7 +73,7 @@ public class Main {
             여기서 알 수 있는 점은 sout()에서 가장 먼저 나온 데이터의 자료형을 따라간다는 점입니다.
          */
         System.out.println("123" + 1);  //1231
-        System.out.println(123 + "1");  //1231 -> 그런데 얘가 예외
+        System.out.println(123 + "1");  //1231 → 그런데 얘가 예외
 
 
         // 3. 정수 자료형 변수 (int)

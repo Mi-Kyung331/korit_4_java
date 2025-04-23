@@ -41,7 +41,7 @@ public class Scanner01 {
             nextLine()이 미리 enter 키를 받아들여서 name에 아무런
             값도 입력하지 않고(대입하지 않고) 씹고 지나가는 상황이라고 할 수 있습니다.
 
-            -> enter키를 한 번 받아주는 애가 있으면 됩니다.
+                → enter키를 한 번 받아주는 애가 있으면 됩니다.
 
             자 그런데, 아까 전에 정리한 거 기준으로
             선언된 변수의 자료형에 따라 scanner.next어쩌고()가 자동으로 생성됩니다.
@@ -90,6 +90,6 @@ public class Scanner01 {
         String name2 = scanner.next();
         System.out.println(name2 + "학생의 점수는 " + score2 + "입니다.");
 
-        // Scanner02 -> main
+        // Scanner02 → main
     }
 }

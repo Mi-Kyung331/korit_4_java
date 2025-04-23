@@ -40,6 +40,6 @@ public class Operator02 {
         boolean result9 = 10 % 3 == 0;
         System.out.println("10 / 3 연산의 나머지는 0이다? " + result9);
 
-        // ch04_scanner -> Scanner01
+        // ch04_scanner → Scanner01
     }
 }
