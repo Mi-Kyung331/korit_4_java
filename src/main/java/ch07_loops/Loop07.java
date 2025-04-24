@@ -16,14 +16,20 @@ public class Loop07 {
         int row = scanner.nextInt();
 
         // Loop06의 # 2번 풀이를 기준으로 작성했습니다.
-        for (int i = 0; i < row; i++) {
-            for (int j = row; j > i; j--) {
+//        for (int i = 0; i < row; i++) {
+//            for (int j = row; j > i; j--) {
+//                System.out.print("*" + " ");
+//            }
+//            System.out.println();
+//        }
+
+        // 오늘 복습 시간에 md파일 정리 할 때 # 1풀이법으로 작성해보세요 → Loop06참조
+        for (int i = row; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
         }
-
-        // 오늘 복습 시간에 md파일 정리 할 때 # 1풀이법으로 작성해보세요 → Loop06참조
 
     }
 }
