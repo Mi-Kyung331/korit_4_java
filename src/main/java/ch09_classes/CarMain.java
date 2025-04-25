@@ -19,6 +19,5 @@ public class CarMain {
 
         car1.displayCarInfo();
         car2.displayCarInfo();
-
     }
 }

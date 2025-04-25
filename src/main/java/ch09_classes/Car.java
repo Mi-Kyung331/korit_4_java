@@ -25,9 +25,17 @@ public class Car {
         각각 drive() / brake() / displayCarInfo()를 실행하시고, 콘솔창에 결과를 출력하시오.
      */
 
+    // 필드 선언
     String color;
     int km;
+    // 생성자를 배우면 해결되는 개념
+//    String eval2 = (km > 100 ? "빠릅니다." : "그냥저냥입니다. ");
+//    이 차의 색깔은 빨강이고,
+//    최고 속도는 100입니다. 그냥저냥입니다.
+//    이 차의 색깔은 노랑이고,
+//    최고 속도는 200입니다. 그냥저냥입니다.
 
+    // 메서드 정의
     public void drive() {
         System.out.println(color + "자동차가 주행중입니다.");
         System.out.println("최고 속도는 " + km + "입니다.");
@@ -42,5 +50,5 @@ public class Car {
         System.out.println("이 차의 색깔은 " + color + "이고, ");
         System.out.println("최고 속도는 " + km + "입니다. " + eval);
     }
-
+    // Constructor / ConstructorMain → main
 }
